@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+p{
+    margin-top: 15px;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+li, li>a{
+    display: inline-block;
+    text-decoration: none;
+    padding:5px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+li>a{
+    border-bottom: 1px solid rgb(247, 136, 72);
+    cursor: pointer;
+}
